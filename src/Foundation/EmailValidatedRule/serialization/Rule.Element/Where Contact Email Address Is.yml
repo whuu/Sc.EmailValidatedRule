@@ -1,0 +1,21 @@
+﻿---
+ID: "864bb627-34e9-4852-aa1e-56ba9e33c088"
+Parent: "8e82938c-d032-4530-afc3-f262b6552f55"
+Template: "f0d16eee-3a05-4e43-a082-795a32b873c0"
+Path: "/sitecore/system/Settings/Rules/Definitions/Elements/XConnect - Contact Personal Details Conditions/Where Contact Email Address Is Verified"
+DB: master
+SharedFields:
+- ID: "ab51c8b2-f0e1-4471-9aae-cc080d774923"
+  Hint: Type
+  Value: Sc.EmailValidatedRule.Segmentation.Predicates.Contact.EmailAddressVerified, Sc.EmailValidatedRule
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180526T112529Z
+    - ID: "af321234-4eb9-4ef5-9197-65903351939c"
+      Hint: Text
+      Value: where the contact's preferred email address is verified

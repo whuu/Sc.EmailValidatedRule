@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{FAAE10BE-4935-4C18-9CBE-810F2E06590F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{26198AB9-C724-4DC1-9B07-F1BCA0CA5188}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+		publishsettings.targets = publishsettings.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EmailValidatedRule", "EmailValidatedRule", "{4BB10CAF-21AB-4428-A359-F57537FE4C17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sc.EmailValidatedRule", "src\Foundation\EmailValidatedRule\code\Sc.EmailValidatedRule.csproj", "{09480CFF-18FD-43AA-937B-07072924384E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{29661AE0-B56A-4794-A2B4-5309541B86CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "src\Foundation\Serialization\code\Serialization.csproj", "{CDA26134-43F7-4624-B20C-490991C1653C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{687BFDB6-E356-49A3-97A0-30FC425F64C0}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutomationEngine", "AutomationEngine", "{CC92E609-6464-45CB-97FE-9569BAC27FC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Data", "App_Data", "{7122ED09-7B7E-43E0-9342-9806B4CADECC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Config", "Config", "{CE571A40-076C-4746-B725-A2B5585BAAA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sitecore", "sitecore", "{53A02E07-0DBA-4C85-AE18-96680B604D35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Segmentation", "Segmentation", "{F1B64048-5B25-407E-8A33-8D33CBA860FD}"
+	ProjectSection(SolutionItems) = preProject
+		AutomationEngine\App_Data\Config\sitecore\Segmentation\sc.EmailValidatedRule.Predicates.xml = AutomationEngine\App_Data\Config\sitecore\Segmentation\sc.EmailValidatedRule.Predicates.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09480CFF-18FD-43AA-937B-07072924384E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09480CFF-18FD-43AA-937B-07072924384E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09480CFF-18FD-43AA-937B-07072924384E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09480CFF-18FD-43AA-937B-07072924384E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA26134-43F7-4624-B20C-490991C1653C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4BB10CAF-21AB-4428-A359-F57537FE4C17} = {FAAE10BE-4935-4C18-9CBE-810F2E06590F}
+		{09480CFF-18FD-43AA-937B-07072924384E} = {4BB10CAF-21AB-4428-A359-F57537FE4C17}
+		{29661AE0-B56A-4794-A2B4-5309541B86CC} = {FAAE10BE-4935-4C18-9CBE-810F2E06590F}
+		{CDA26134-43F7-4624-B20C-490991C1653C} = {29661AE0-B56A-4794-A2B4-5309541B86CC}
+		{CC92E609-6464-45CB-97FE-9569BAC27FC3} = {26198AB9-C724-4DC1-9B07-F1BCA0CA5188}
+		{7122ED09-7B7E-43E0-9342-9806B4CADECC} = {CC92E609-6464-45CB-97FE-9569BAC27FC3}
+		{CE571A40-076C-4746-B725-A2B5585BAAA2} = {7122ED09-7B7E-43E0-9342-9806B4CADECC}
+		{53A02E07-0DBA-4C85-AE18-96680B604D35} = {CE571A40-076C-4746-B725-A2B5585BAAA2}
+		{F1B64048-5B25-407E-8A33-8D33CBA860FD} = {53A02E07-0DBA-4C85-AE18-96680B604D35}
+	EndGlobalSection
+EndGlobal

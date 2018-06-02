@@ -1,0 +1,18 @@
+<Settings>
+  <Sitecore>
+    <XConnect>
+      <Services>
+        <DescriptorLocator>
+          <Options>
+            <PredicateDescriptors>
+              <EmailAddressVerified>
+                <id>{864BB627-34E9-4852-AA1E-56BA9E33C088}</id>
+                <type>Sc.EmailValidatedRule.Segmentation.Predicates.Contact.EmailAddressVerified, Sc.EmailValidatedRule</type>
+              </EmailAddressVerified>
+            </PredicateDescriptors>
+          </Options>
+        </DescriptorLocator>
+      </Services>
+    </XConnect>
+  </Sitecore>
+</Settings>
