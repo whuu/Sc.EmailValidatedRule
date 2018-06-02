@@ -10,7 +10,7 @@ Ready to be used in marketing automation.
 * In Content Management or Standalone server install [Sc.EmailValidatedRule-1.0.zip](sc.package) using Sitecore Installation Wizard.
 * (Optionally) copy Sc.EmailValidatedRule.dll to bin folder in Content Delivery server, if you want to use this rule for content personalization.
 * Copy Sc.EmailValidatedRule.dll from package zip to `{AutomationEngine}` directory.
-* Copy [sc.EmailValidatedRule.Predicates.xml](AutomationEngine\App_Data\Config\sitecore\Segmentation\sc.EmailValidatedRule.Predicates.xml) to `{AutomationEngine}\App_Data\Config\sitecore\Segmentation\` directory. 
+* Copy [sc.EmailValidatedRule.Predicates.xml](AutomationEngine/App_Data/Config/sitecore/Segmentation/sc.EmailValidatedRule.Predicates.xml) to `{AutomationEngine}\App_Data\Config\sitecore\Segmentation\` directory. 
 
 ## Manual Installation/Install from Source
 
